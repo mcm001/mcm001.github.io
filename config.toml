@@ -1,0 +1,4 @@
+baseURL = 'https://mcm001.github.io/'
+languageCode = 'en-us'
+title = 'Matthew Morley'
+theme = 'ananke'
