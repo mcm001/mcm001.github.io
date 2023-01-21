@@ -160,15 +160,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Robotics & Engineering Intern"
-        company: "GreenSight Agronomics"
-        companyUrl: "https://example.com"
-        date: "July 2022 - Dec 2022"
-        # featuredLink:
-        #   enable: true
-        #   name: "View the project"
-        #   url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
       - job: "Software Robotics and Controls Intern"
         company: "Johnson and Johnson"
         # companyUrl: "https://example.com"
@@ -177,12 +168,29 @@ params:
         #   enable: true
         #   url: "https://example.com"
         info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          enable: false
+          content: ""
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          I developed and refactored instrument simulation models for the Monarch surgical robot in C++ and Python. 
+          
+          The existing simulation code had limited physics modeling, and much of the instrument control algorithm used on the physical system had to be disabled in simulation. I was responsible for identifying correlations in procedure data logs and creating accurate simulation models that allowed the same control algorithms to be used in simulation and on the physical system, enabling verification of procedure workflow and increasing unit-test coverage.
+
+      - job: "Robotics & Engineering Co-op"
+        company: "GreenSight Agronomics"
+        companyUrl: "https://example.com"
+        date: "July 2022 - Dec 2022"
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "https://example.com"
+        info:
+          enable: false
+          content: ""
+        content: |
+          I performed new drone avionics bringup and debugging, designed PCBs, and wrote embedded software. I had the chance to work on a range of hardware and software projets, while supporting flight operations for the fleet of deployed GreenSight drones. My projects included design and assembly of drone avionics PCBs in KiCad, writing embedded software for LiDAR sensor arrays with C++ and ROS, and identifying issues with and reworking existing circuit boards.
+
+          I was also responsible for supporting flight operations by remotely managing daily drone flights capturing multispectral imagery at customer locations across the US. I also gained my FAA Part 107 remote pilot license and performed test flights to evaluate experimental drone performance in real-world conditions.
+
       - job: "Mechanical Engineering Intern"
         company: "Johnson and Johnson"
         # companyUrl: "https://example.com"
@@ -191,12 +199,14 @@ params:
         #   enable: true
         #   url: "https://example.com"
         info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          enable: false
+          content: ""
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          My main project was the mechanical design, programming, and deployment actuator test fixtures for the Ottava surgical robot. The fixtures repeatably measured safety-critical joint performance metrics on the manufacturing line, enabling verification against subsystem specifications. 
+          
+          I designed machined parts and generated drawings with GD&T using SOLIDWORKS and SOLIDWORKS PDM, and interfaced with quick-turn vendors to order machined parts. I also released fixture parts and drawing in Agile PLM.
+
+          I used Visual C++ to interface with COTS sensor and motor driver APIs, and created a basic Python GUI to visualize results and post-process test data using TKinter.
 
   # Education
   education:
