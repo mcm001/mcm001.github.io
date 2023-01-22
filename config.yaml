@@ -134,12 +134,12 @@ params:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/matthew-morley-774464192
       customIcons:
-        - icon: /images/behance.png
+        - icon: /images/behance.ico
           url: "https://behance.net/matthew-morley"
 
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
@@ -337,7 +337,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/mcm001
