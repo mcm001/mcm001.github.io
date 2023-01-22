@@ -25,16 +25,16 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
     - identifier: gallery
       name: Gallery
       title: Blog posts
       url: /gallery
-      weight: 2
+      weight: 1
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -54,10 +54,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Matt's Portfolio"
+  description: Check out my portfolio!
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/images/fav.jpg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -103,7 +103,7 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Matt Morley" # Brand name for the brand | default is the title variable
     disableSearch: false
     menus:
       disableAbout: false
