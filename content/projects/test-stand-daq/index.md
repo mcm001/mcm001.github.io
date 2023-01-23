@@ -1,18 +1,18 @@
 ---
 title: "Rocket Test Stand DAQ (AerospaceNU)"
-date: 2022-07-20T13:48:04-05:00
+date: 2022-09-20T13:48:04-05:00
 draft: false
 author:
-image: https://mir-s3-cdn-cf.behance.net/project_modules/fs/a7c016158393971.638a7102c2051.jpg
+image: /images/projects/test-stand-daq/gallery-1/assembled-daq.jpg
 tags:
 # image: /images/hero.png
 description:
-toc: true
+toc: false
 ---
 
-## Summary
-
 AerospaceNU's Project Redshift was gearing up for a second hot-fire test our liquid rocket engine. The data acquisition electronics used for our first test during summer 2022 was made using a collection of unreliable Arduino breakout boards, could only read temperature from grounded thermocouples, and read pressure from our 10 pressure transducers at 5hz -- much too slow to determine what exactly happened during the first test. We needed a solution that could read pressure sensors at faster than 100hz, was robust to accidental ESD damage, and properly support grounded thermocouples.
+
+{{< figure src="images/projects/test-stand-daq/gallery-1/old-vs-new.png" caption="Update rate and data acquired from old vs new electronics" alt="">}}
 
 I designed this high-speed data acquisition board for AerospaceNU's liquid rocket engine test stand during Summer 2022. The electronics successfully gathered data during a hotfire test of our engine in October 2022. The PCB was designed to validate data acquisition designs for the club's eventual liquid-propelled rocket, and replace the interim breadboard solution designed during Spring 2022. 
 
@@ -27,7 +27,7 @@ The design exceeded our requirements on connectivity, data acquisition rate, and
 - 15 pressure transducers, either 4-20mA or 0-5v (configurable), at up to 1.5KHz
 - 4 type-K thermocouples
 - 1 H-bridge loadcell (configurable gain)
-- USB-CDC communication with central Raspberry Pi
+- USB serial communication with central Raspberry Pi
 
 ## Design
 

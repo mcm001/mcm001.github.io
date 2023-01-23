@@ -144,7 +144,7 @@ params:
     # image: "/images/me.jpg"
     content: |-
       <p>
-      I'm a 3rd year Mechanical Engineering student at Northeastern University
+      I'm a 3rd year Mechanical Engineering student at Northeastern University with a passion for robotics and aerospace. I love everything engineering, and I'm happiest when working on interdisciplinary projects and learning new things.
       </p>
       <p>
       When not in class or building model rockets, I can usually be found crocheting, sailing, or playing Terraforming Mars.
@@ -161,7 +161,7 @@ params:
             - 3D printers
             - Hand/hot air soldering
             - Hand tools
-        foobar:
+        langs:
           title: "Software"
           items:
             - SOLIDWORKS
@@ -174,7 +174,7 @@ params:
             - Jira
             - Docker
             - ROS
-        foo2:
+        software:
           title: "Languages"
           items:
            - C++
@@ -352,7 +352,7 @@ params:
   contact:
     enable: true
     # title: "Contact Me"
-    content: Please feel free to shoot me an email if you have questions about any of my projects, or just want to say hi! I'd love to connect.
+    content: Please feel free to shoot me an email if you have questions about any of my projects, or just want to say hi!
     email: matthew.morley.ca@gmail.com
     btnName: Mail me
     # formspree:
@@ -363,10 +363,10 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "posts"
       count: 3
       title: Recent Posts
-      enable: false
+      enable: true
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/mcm001
