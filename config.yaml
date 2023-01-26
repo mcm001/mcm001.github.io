@@ -124,7 +124,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/files/Matthew Morley Resume 1-18-22.pdf"
+      url: "/files/Matthew Morley Resume 1-26-22.pdf"
       download: true
       newPage: false
     socialLinks:
