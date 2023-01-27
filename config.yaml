@@ -25,16 +25,16 @@ markup:
 
 Menus:
   main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
-    - identifier: gallery
-      name: Gallery
+    - identifier: posts
+      name: Posts
       title: Blog posts
-      url: /gallery
+      url: /posts
       weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 1
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu

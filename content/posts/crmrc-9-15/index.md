@@ -9,7 +9,7 @@ description:
 toc:
 ---
 
-I attended Champlain Region Model Rocket Club's 9/18 launch with AerospaceNU
+I attended Champlain Region Model Rocket Club's 9/18 launch with AerospaceNU.
 
 ## Beanboozler (J285CL)
 
