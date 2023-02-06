@@ -23,6 +23,7 @@ In this project, I designed the Printed Circuit Board shown below. The PCB was d
 {{< /gallery >}}
 
 {{< youtube Qcm_kyZd2H0 >}}
+<p></p>
 
 ## Design
 
