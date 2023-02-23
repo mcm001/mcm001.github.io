@@ -231,7 +231,7 @@ params:
           enable: false
           content: ""
         content: |
-          My main project was the mechanical design, programming, and deployment actuator test fixtures for the Ottava surgical robot. The fixtures repeatably measured safety-critical joint performance metrics on the manufacturing line, enabling verification against subsystem specifications. 
+          My main project was the mechanical design, programming, and deployment of actuator test fixtures for the Ottava surgical robot. The fixtures repeatably measured safety-critical joint performance metrics on the manufacturing line, enabling verification against subsystem specifications. 
           
           I designed machined parts and generated drawings with GD&T using SOLIDWORKS and SOLIDWORKS PDM, and interfaced with quick-turn vendors to order machined parts. I also released fixture parts and drawing in Agile PLM.
 
