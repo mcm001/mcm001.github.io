@@ -10,14 +10,14 @@ description:
 toc: false
 ---
 
-Beanboozler (named after an in-joke) was designed to test the custom rocket avionics suite designed by AerospaceNU in flight regimes close to those they'll experience when controlling our eventual liquid-fueled rocket. I lead the design and fabrication, helped by a small group of teammates.
+Beanboozler was designed to test the custom rocket avionics suite designed by AerospaceNU in flight regimes close to those they'll experience when controlling our eventual liquid-fueled rocket. I lead the design and fabrication, along with small group of teammates.
 
 The mechanical design of this 2.6in fiberglass rocket was pushed my rocket construction skills. It is my first fiberglass airframe rocket, was my first to fly on an L-class rocket motor, and my first rocket to fly supersonic. A flight at Lucerne Lake in CA summer of 2022 achieved an apogee of 15,584ft and a speed of Mach 1.05 on a L265-mellow rocket motor (below).
 
 {{< gallery >}} 
-    {{< figure src="/projects/beanboozler/imgs/ldrs-40-launch.jpg" caption="Beanboozler in the Mojave desert">}}
-    {{< figure src="/projects/beanboozler/imgs/ldrs-40-hero.jpg" caption="Retreating from the rocket">}}
     {{< figure src="/projects/beanboozler/imgs/ldrs-40-assembly.jpg" caption="Assembling the rocket motor">}}
+    {{< figure src="/projects/beanboozler/imgs/ldrs-40-hero.jpg" caption="Retreating from the rocket">}}
+    {{< figure src="/projects/beanboozler/imgs/ldrs-40-launch.jpg" caption="Beanboozler in the Mojave desert">}}
 {{< /gallery >}}
 
 Beanboozler's mechanical design was done with a mix of SOLIDWORKS and OpenRocket, with additional fin strength calculations performed with FinSim. The embedded software for the flight computer was written in a mix of C and C++, and the groundstation UI in Python.
@@ -54,4 +54,4 @@ The avionics bay went through multiple iterations in Solidworks, evolving from a
 
 The rocket ejection system (black powder charges ignited with electric matches) was ground tested to ensure the rocket would properly seperate in flight. The videos below show the drogue (lower) and main (upper) bays successfully separating with 0.2 and 0.4 grams of black powder.
 
-
+<!-- TODO -- gotta put the videos in here -->

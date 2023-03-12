@@ -14,7 +14,9 @@ AerospaceNU's Project Redshift was gearing up for a second hot-fire test our liq
 
 {{< figure src="images/projects/test-stand-daq/gallery-1/old-vs-new.png" caption="Update rate and data acquired from old vs new electronics" alt="">}}
 
-I designed this high-speed data acquisition board for AerospaceNU's liquid rocket engine test stand during Summer 2022. The electronics successfully gathered data during a hotfire test of our engine in October 2022. The PCB was designed to validate data acquisition designs for the club's eventual liquid-propelled rocket, and replace the interim breadboard solution designed during Spring 2022. 
+I designed this high-speed data acquisition board for AerospaceNU's liquid rocket engine test stand during Summer 2022. The electronics successfully gathered data during a hotfire test of our engine in October 2022. The PCB was designed to validate data acquisition designs for the club's eventual liquid-propelled rocket, and replace the interim breadboard solution designed during Spring 2022.
+
+Through this project, I learned to use KiCAD, further developed my fine soldering skills, and gained experience verifying and calibrating data acquisition electronics. I also learned how to use KiCAD's hierarchal sheets to more efficiently represent repeated subcircuits in schematics and some of the basics of mixed signal PCB design.
 
 {{< load-photoswipe >}}
 {{< gallery >}} 
@@ -60,8 +62,8 @@ The passives on the back of the PCB were assembled by JLCPCB, and ICs were hand-
 {{< figure src="images/projects/test-stand-daq/gallery-1/04_ADC_soldering.jpg" caption="Soldering the MCP3564 ADC chip">}}
 {{< /gallery >}}
 
-More notes on:
+<!-- More notes on:
 - TC RF interference
 - MCP3564 soldering debugging
 - Embedded code
-- Test results
+- Test results -->
