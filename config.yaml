@@ -216,7 +216,7 @@ params:
           enable: false
           content: ""
         content: |
-          I performed new drone avionics bringup and debugging, designed PCBs, and wrote embedded software. I had the chance to work on a range of hardware and software projets, while supporting flight operations for the fleet of deployed GreenSight drones. My projects included design and assembly of drone avionics PCBs in KiCad, writing embedded software for LiDAR sensor arrays with C++ and ROS, and identifying issues with and reworking existing circuit boards.
+          I performed new drone avionics bringup and debugging, designed PCBs, and wrote embedded software. I had the chance to work on a range of hardware and software projects, while supporting flight operations for the fleet of deployed GreenSight drones. My projects included design and assembly of drone avionics PCBs in KiCad, writing embedded software for LiDAR sensor arrays with C++ and ROS, and identifying issues with and reworking existing circuit boards.
 
           I was also responsible for supporting flight operations by remotely managing daily drone flights capturing multispectral imagery at customer locations across the US. I gained my FAA Part 107 remote pilot license and performed test flights to evaluate experimental drone performance in real-world conditions.
 
@@ -231,7 +231,7 @@ params:
           enable: false
           content: ""
         content: |
-          My main project was the mechanical design, programming, and deployment actuator test fixtures for the Ottava surgical robot. The fixtures repeatably measured safety-critical joint performance metrics on the manufacturing line, enabling verification against subsystem specifications. 
+          My main project was the mechanical design, programming, and deployment of actuator test fixtures for the Ottava surgical robot. The fixtures repeatably measured safety-critical joint performance metrics on the manufacturing line, enabling verification against subsystem specifications. 
           
           I designed machined parts and generated drawings with GD&T using SOLIDWORKS and SOLIDWORKS PDM, and interfaced with quick-turn vendors to order machined parts. I also released fixture parts and drawing in Agile PLM.
 
