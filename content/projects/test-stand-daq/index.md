@@ -2,10 +2,9 @@
 title: "Rocket Test Stand DAQ (AerospaceNU)"
 date: 2022-09-20T13:48:04-05:00
 draft: false
-author:
+author: Matthew Morley
 image: /images/projects/test-stand-daq/gallery-1/assembled-daq.jpg
-tags:
-# image: /images/hero.png
+tags: [Rocketry, KiCAD, PCB Design, Data Acquisition]
 description:
 toc: false
 ---

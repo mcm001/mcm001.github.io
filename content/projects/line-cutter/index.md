@@ -2,9 +2,9 @@
 title: "Parachute Reefing Cutter"
 date: 2021-05-09T13:48:04-05:00
 draft: false
-author:
+author: Matthew Morley
 image: /projects/line-cutter/imgs/assem-top.jpg
-tags:
+tags: [Rocketry, PCB Design]
 description:
 toc: false
 ---
