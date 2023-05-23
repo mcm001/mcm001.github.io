@@ -48,7 +48,31 @@ The booster (above) is composed of an upper interstage section and lower motor m
 
 First, a triangular fin jig was used to align and tack the 3 fins in place using super glue. After adding a small internal epoxy fillet, the assembly was slid into the pre-slotted red airframe tube and 0.5in radius fillets were added.
 
-## Launch Attempt 1
+## Safety
+
+It's super important that the electrical and software systems for this rocket have no failure modes in which a motor can ignite while a person is nearby. We achieved this in hardware by only connecting a electrically-shorted igniter immediately before launch at the pad, and only removing the shunt as the very last checklist item before leaving the pad. 
+
+In software, we added and extensively tested altitude, velocity, and angle lockouts to prevent premature motor ignition. But we still relied on hardware controls as much as possible. The final set of configurations we settled on for sustainer ignition on the first launch was:
+
+ - Flight computer has not restarted since launch
+ - More than 2 seconds after motor burnout
+ - Have not reached apogee
+ - Vertical velocity > 30 m/s
+ - Angle to vertical < 40 degrees
+ - Maximum ever angle angle to vertical < 34 degrees
+ - Cannot be fired manually
+
+{{< gallery >}} 
+    {{< figure src="/projects/beanbooster/imgs/2023-04-15/wiring-screenshot.png" caption="Sustainer wiring diagram">}}
+    {{< figure src="/projects/beanbooster/imgs/2023-04-15/config-screenshot.png" caption="Sustainer configuration">}}
+    {{< figure src="/projects/beanbooster/imgs/2023-04-15/raceway.jpg" caption="Booster raceway + shunt">}}
+{{< /gallery >}}
+
+{{< youtube HTiaJfHGrs4 >}}
+
+<p></p>
+
+## Screw Switch Issues
 
 During the first launch attempt, we got as far as putting the rocket onto the pad before we ran into issues with radio communication. After troubleshooting at the pad, we disassembled the rocket and discovered that the flight battery had been drained. The root cause was tracked down to a shorted PCB screw switch, which had a tiny bit of solder making contact and draining the battery in storage.
 
