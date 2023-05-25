@@ -48,7 +48,7 @@ The booster (above) is composed of an upper interstage section and lower motor m
 
 First, a triangular fin jig was used to align and tack the 3 fins in place using super glue. After adding a small internal epoxy fillet, the assembly was slid into the pre-slotted red airframe tube and 0.5in radius fillets were added.
 
-## Safety
+## Software & Safety
 
 It's super important that the electrical and software systems for this rocket have no failure modes in which a motor can ignite while a person is nearby. We achieved this in hardware by only connecting a electrically-shorted igniter immediately before launch at the pad, and only removing the shunt as the very last checklist item before leaving the pad. 
 
@@ -67,6 +67,8 @@ In software, we added and extensively tested altitude, velocity, and angle locko
     {{< figure src="/projects/beanbooster/imgs/2023-04-15/config-screenshot.png" caption="Sustainer configuration">}}
     {{< figure src="/projects/beanbooster/imgs/2023-04-15/raceway.jpg" caption="Booster raceway + shunt">}}
 {{< /gallery >}}
+
+The first flight in April used the above lockouts for sustainer ignition, and they were all satisfied during flight, allowing for the sustainer rocket motor to be ignited. The video below shows our view on the ground using the Python-based GUI I helped develop. The two motor burns can be seen in the acceleration readout in the top right widget.
 
 {{< youtube HTiaJfHGrs4 >}}
 
