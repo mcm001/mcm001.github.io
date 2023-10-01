@@ -2,7 +2,7 @@
 title: "Launch Report: CRMRC 1/21"
 date: 2023-01-21T16:50:30-05:00
 draft: false
-author:
+author: Matt Morley
 tags:
 image: /posts/crmrc-1-21-23/imgs/spruce-goose.jpg
 description:

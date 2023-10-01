@@ -2,7 +2,7 @@
 title: "Launch Report: CRMRC 9/18"
 date: 2022-09-17T16:50:30-05:00
 draft: false
-author:
+author: Matt Morley
 tags:
 image: /projects/beanboozler/imgs/beanboozler-crmrc-9-17.jpg
 description:
