@@ -58,11 +58,11 @@ One fun effect that drops out of the math is the idea of fin flutter. Fin flutte
 
 {{< youtube pyct1Pii_cg >}}
 
-It's really hard to estimate the airspeed at which fin flutter can exist without making some assumptions, or building and fine-tuning a nonlinear model for your particular fin. Fin anabasis software like [AeroFinSim](https://www.aerorocket.com/finsim.html) makes some assumptions to linearize the problem, which gives us a conservative estimate for the speed above which fin flutter can occur.
+It's really hard to estimate the airspeed at which fin flutter can exist without making some assumptions, or building and fine-tuning a nonlinear model for your particular fin. Fin analysis software like [AeroFinSim](https://www.aerorocket.com/finsim.html) makes some assumptions to linearize the problem, which gives us a conservative estimate for the speed above which fin flutter can occur.
 
 The other fun fin failure mode is divergence, a radial twisting of the fin into the airflow such that its leading edge has an angle of attack and the fin material isn't sufficiently stiff to "pull" it back straight.
 
-This video from a professor at Duke on YouTube, which I was sent by another rocketry friend, was a good introduction; Aeroelasticity is super cool. Note the demo towards the end, where they're able to test a fin at over 2x the linearly predicted flutter speed. The fin does vibrate, but it's not divergent -- its oscillations are bounded. The video explains this as unmodeled nonlinear effects which mean there's a grey zome between "my fin is capable of sustaining a vibration" and "my fin will fall apart".
+This video from a professor at Duke on YouTube, which I was sent by another rocketry friend, was a good introduction; Aeroelasticity is super cool. Note the demo towards the end, where they're able to test a fin at over 2x the linearly predicted flutter speed. The fin does vibrate, but it's not divergent -- its oscillations are bounded. The video explains this as unmodeled nonlinear effects which mean there's a grey area between "my fin is capable of sustaining a vibration" and "my fin will fall apart".
 
 {{< youtube BBD8IRWKrVU >}}
 
