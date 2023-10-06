@@ -32,7 +32,7 @@ So we stick our rocket design into OpenRocket and it tells me my CG and CP locat
 
 This model, which I flew at LDRS 40 in the Mojave desert in June 2022, was stable in OpenRocket. But in flight it did a loop-the-loop! What happened??
 
-Turns out, those simplifying assumptions aren't super valid past a couple of degrees Angle of Attack (the angle between the rocket and the oncoming airstream). As pith increases, the center of pressure tends to move forwards up a rocket, decreasing stability. And on the day I launched tht rocket, with ~20 mph winds, my rocket would come off of the launch pad with as much as a 30 degree AoA. If I'd dug into OpenRocket and re-ran the simulation using that number, it would have told me my rocket was, in fact, going to become unstable!
+Turns out, those simplifying assumptions aren't super valid past a couple of degrees Angle of Attack (the angle between the rocket and the oncoming airstream). As pith increases, the center of pressure tends to move forwards up a rocket, decreasing stability. And on the day I launched the rocket, with ~20 mph winds, my rocket would come off of the launch pad with as much as a 30 degree AoA. If I'd dug into OpenRocket and re-ran the simulation using that number, it would have told me my rocket was, in fact, going to become unstable!
 
 In this particular design, I had done a few things that individually decreased stability, and together led to the rocket spinning out:
 
