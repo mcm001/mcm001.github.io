@@ -119,8 +119,8 @@ params:
     intro: "Hi, my name is"
     title: Matthew
     subtitle: "I build things"
-    content: A 3rd year engineering student with a passion for everything engineering. Building robots, flying rockets, writing software; as long as I'm making things, I'm happy.
-    image: /images/me.jpg
+    content: As a recent graduate from Northeastern University with a Bachelor of Science in Mechanical Engineering, I am currently developing embedded software full-time with Blue Origin through their New Graduate Rotation program. Driven by a passion for aerospace, I thrive on innovation and leadership, whether I'm building robots, advancing human spaceflight, or writing cutting-edge software.
+    image: /images/matt_fh.png
     button:
       enable: true
       name: "Resume"
@@ -144,10 +144,10 @@ params:
     # image: "/images/me.jpg"
     content: |-
       <p>
-      I'm a 3rd year Mechanical Engineering student at Northeastern University with a passion for robotics and aerospace. I love everything engineering, and I'm happiest when working on interdisciplinary projects and learning new things.
+      I'm a recent graduate from Northeastern University with a passion for aerosapce and robotics. I love everything engineering, and I'm happiest when working on interdisciplinary projects and learning new things. I recently joined Blue Origin full-time as a member of their Avionics Software New Graduate Rotation program, where I'm developing safety-critical flight software.
       </p>
       <p>
-      When not in class or building model rockets, I can usually be found crocheting, sailing, or playing Terraforming Mars.
+      When not developing software for rockets both real and model, I can usually be found crocheting, sailing, or playing Terraforming Mars.
       </p>
     skills:
       enable: true
@@ -189,6 +189,24 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Aerospace Software Apps Engineer/New Graduate Rotation"
+        company: "Blue Origin"
+        info:
+          enable: false
+          content: ""
+        content: Coming soon!
+      - job: "Engineeering Intern, Falcon 9 Recovery"
+        company: "SpaceX"
+        info:
+          enable: false
+          content: ""
+        content: Coming soon!
+      - job: "Robotics Intern"
+        company: "NASA Jet Propulsion Laboritory"
+        info:
+          enable: false
+          content: ""
+        content: Coming soon!
       - job: "Software Robotics and Controls Intern"
         company: "Johnson and Johnson"
         # companyUrl: "https://example.com"
