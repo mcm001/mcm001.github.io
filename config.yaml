@@ -124,7 +124,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/files/Matthew Morley Resume 9-1-23.pdf"
+      url: "/files/Matt Morley Resume FSW 2023-10-23.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -189,31 +189,30 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Aerospace Software Apps Engineer/New Graduate Rotation"
+      - job: "Avionics Software/New Graduate Rotation"
         company: "Blue Origin"
+        location: Seattle, WA
         info:
           enable: false
-          content: ""
-        content: Coming soon!
+        content: |
+          Foo bar
       - job: "Engineeering Intern, Falcon 9 Recovery"
         company: "SpaceX"
         info:
           enable: false
-          content: ""
-        content: Coming soon!
-      - job: "Robotics Intern"
+        content: |
+            As an engineering intern with Falcon eveloped ROS-based automation for maritime robotic systems, decreasing operator workload in complex mission operations
+      - job: "Summer Engineering Intern"
         company: "NASA Jet Propulsion Laboritory"
+        # date: "May 2023 - Aug. 2023"
         info:
           enable: false
           content: ""
-        content: Coming soon!
+        content: |
+            Foo bar
       - job: "Software Robotics and Controls Intern"
         company: "Johnson and Johnson"
-        # companyUrl: "https://example.com"
-        date: "Oct 2021 - Present"
-        # featuredLink:
-        #   enable: true
-        #   url: "https://example.com"
+        # date: "Oct. 2021 - July 2022"
         info:
           enable: false
           content: ""
@@ -226,10 +225,6 @@ params:
         company: "GreenSight Agronomics"
         companyUrl: "https://example.com"
         date: "July 2022 - Dec 2022"
-        # featuredLink:
-        #   enable: true
-        #   name: "View the project"
-        #   url: "https://example.com"
         info:
           enable: false
           content: ""
@@ -249,7 +244,7 @@ params:
           enable: false
           content: ""
         content: |
-          My main project was the mechanical design, programming, and deployment of actuator test fixtures for the Ottava surgical robot. The fixtures repeatably measured safety-critical joint performance metrics on the manufacturing line, enabling verification against subsystem specifications. 
+          As an intern with the capital hardware group, I was responsbiel for the mechanical design, programming, and deployment of actuator test fixtures for the Ottava surgical robot. The fixtures repeatably measured safety-critical joint performance metrics on the manufacturing line, enabling verification against subsystem specifications. 
           
           I designed machined parts and generated drawings with GD&T using SOLIDWORKS and SOLIDWORKS PDM, and interfaced with quick-turn vendors to order machined parts. I also released fixture parts and drawing in Agile PLM.
 
